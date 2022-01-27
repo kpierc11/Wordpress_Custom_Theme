@@ -1,4 +1,5 @@
 <?php
+
 /**
  * The header.
  *
@@ -13,20 +14,20 @@
 
 ?>
 <!doctype html>
-<html <?php language_attributes(); ?> <?php twentytwentyone_the_html_classes(); ?>>
+<html <?php language_attributes(); ?>>
+
 <head>
-	<meta charset="<?php bloginfo( 'charset' ); ?>" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<?php wp_head(); ?>
+    <meta charset="<?php bloginfo('charset'); ?>" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="../customtheme/style.css" rel="stylesheet">
+
 </head>
 
-<body <?php body_class(); ?>>
-<?php wp_body_open(); ?>
-<div id="page" class="site">
-	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'twentytwentyone' ); ?></a>
+<body>
 
-	<?php get_template_part( 'template-parts/header/site-header' ); ?>
+    <?php get_template_part( 'template-parts/header/site-nav' ); ?>
 
-	<div id="content" class="site-content">
-		<div id="primary" class="content-area">
-			<main id="main" class="site-main" role="main">
+
+    

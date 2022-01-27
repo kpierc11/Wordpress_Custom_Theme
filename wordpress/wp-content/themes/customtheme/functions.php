@@ -1,9 +1,9 @@
-<?php
+<?php 
 /**
- * customtheme's functions and definitions
+ * MyFirstTheme's functions and definitions
  *
- * @package customtheme
- * @since customtheme 1.0
+ * @package MyFirstTheme
+ * @since MyFirstTheme 1.0
  */
  
 /**
@@ -12,7 +12,7 @@
  */
 if ( ! isset( $content_width ) )
     $content_width = 800; /* pixels */
-
+ 
 if ( ! function_exists( 'customtheme_setup' ) ) :
 /**
  * Sets up theme defaults and registers support for various WordPress features.
@@ -53,5 +53,5 @@ function customtheme_setup() {
      */
     add_theme_support( 'post-formats', array ( 'aside', 'gallery', 'quote', 'image', 'video' ) );
 }
-endif; // customtheme_setup
+endif; // myfirsttheme_setup
 add_action( 'after_setup_theme', 'customtheme_setup' );
