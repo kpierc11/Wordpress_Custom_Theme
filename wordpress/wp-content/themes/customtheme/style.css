@@ -18,5 +18,11 @@ DemoTheme is distributed under the terms of the GNU GPL.
 */
 
 footer {
-    background: #212529;
-  }
+  background: #212529;
+}
+
+ul {
+  margin: 5px;
+  color: black;
+  background: blue;
+}
