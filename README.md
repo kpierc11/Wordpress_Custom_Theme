@@ -1,2 +1,2 @@
 # Wordpress_Custom_Theme
-A custom made wordpress theme
+A traditional wordpress theme in the works. 
