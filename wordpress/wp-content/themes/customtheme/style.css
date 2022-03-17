@@ -1,28 +1,22 @@
 /*
 Theme Name: DemoTheme
 Theme URI: https://wordpress.org/themes/twentytwentyone/
-Author: the WordPress team
+Author: Kaleb Pierce
 Author URI: https://wordpress.org/
 Description: DemoTheme is a test theme for wordpress
-Requires at least: 5.3
-Tested up to: 5.8
-Requires PHP: 5.6
-Version: 1.0
-License: 
-License URI: 
-Text Domain: 
-Tags: one-column, accessibility-ready, custom-colors, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, block-patterns, rtl-language-support, sticky-post, threaded-comments, translation-ready
 
-DemoTheme WordPress Theme, (C) 2021 
-DemoTheme is distributed under the terms of the GNU GPL.
 */
+* {
+  padding: 0;
+  margin: 0;
+}
 
 footer {
   background: #212529;
 }
 
-ul {
+#main-menu li {
+  display: flex;
   margin: 5px;
   color: black;
-  background: blue;
 }
