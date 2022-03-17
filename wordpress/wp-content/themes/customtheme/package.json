@@ -1,14 +1,17 @@
 {
   "name": "customtheme",
   "version": "1.0.0",
-  "description": "custom theme json for wordpress",
+  "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "sass --watch ./assets/sass:",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Kaleb Pierce",
+  "author": "kaleb pierce",
   "license": "ISC",
   "dependencies": {
-    "bootstrap": "^5.1.3"
+    "autoprefixer": "^10.4.4",
+    "bootstrap": "^5.1.3",
+    "sass": "^1.49.9"
   }
 }

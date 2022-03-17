@@ -1,12 +1,13 @@
-<?php
-# main index file 
-?>
+<?php 
 
-<?php
+/**
+ * Default page template 
+ */
 
-get_header();
 
-if (have_posts()) {
+ get_header();
+
+ if (have_posts()) {
 
 	// Load posts loop.
 	while (have_posts()) {
@@ -19,6 +20,5 @@ if (have_posts()) {
 	// If no content, include the "No posts found" template.
 	get_template_part('template-parts/content/content-none');
 }
-get_footer();
 
-?>
+ get_footer();

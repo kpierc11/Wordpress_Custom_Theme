@@ -6,17 +6,14 @@ Author URI: https://wordpress.org/
 Description: DemoTheme is a test theme for wordpress
 
 */
-* {
-  padding: 0;
-  margin: 0;
+html {
+	line-height: 1.15;
+	-webkit-text-size-adjust: 100%;
 }
 
-footer {
-  background: #212529;
-}
-
-#main-menu li {
-  display: flex;
-  margin: 5px;
-  color: black;
+/**
+ * Remove the margin in all browsers.
+ */
+body {
+	margin: 0;
 }
